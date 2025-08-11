@@ -5,14 +5,14 @@
 - If the 2nd argument is not there the callback function is executed everytime the component renders i.e. RestaurantMenu renders.
 - If the second argument is present the useEffect is called when the second arguments state changes since it has statevariables
 - It is called after every rendering of the component in which it is defined.
-
+                
 - If no dependency array => useEffect is called on every render of the component in which it is present.
 - If the dependency array = [],  the useEffect is called on initial render and just once.
 - If we have defined the dependency array like [], then useEffect is called only once.
 - The useEffect will be called when there is a change in dependency array.
 - If dependency array = [btnNameReact], Every time the btnNameReact changes the useEffect() hook is called.
 - If we have a non empty dependency array, then useEffect is called on every event of the change in the dependency array
-
+                                                                
 ## What are the best practises to use useState() hook?
 - It is used for creating local state variables for functional components, so this is why DO NOT DECLARE OR USE IT OUTSIDE 
   THE FUNCTIONAL COMPONENT => It will throw an error.
@@ -141,8 +141,7 @@
 
 ## There are two types of Routing:
 1. Client Side Routing
-   There is no Network call when we call a page, the client is re-rendering, because it already has the 
-   component and it does not have to call the server for the page.
+   There is no Network call when we call a page, the client is re-rendering, because it already has the component and it does not have to call the server for the page.
 
 2. Server Side Routing
    There is a Network call when we call the page, the client is calling server for the page and the server 
@@ -230,4 +229,3 @@
 ## NOTE:-
 - <Link to=""/> is a component provided by react-router-dom, but when we see it on the HTML page it gives <a href>. 
 - 
-

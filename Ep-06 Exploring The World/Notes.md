@@ -134,7 +134,3 @@ onClick={() => {
 
 - Now the search space is lost if we have searched for some restaurant.
   To solve this create a new state variable to update and search on the previous state variable.
-
-
-
-

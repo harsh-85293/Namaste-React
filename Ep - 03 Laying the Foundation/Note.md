@@ -104,7 +104,7 @@ It can be used inside a components as well.
 ## Component Composition
 Writing the Component inside the Component is called Component Composition.
 
-- We can write function also instead of the Arrow Function, but it is necessary to return it.
+- We can write function also instead of the Arrow Function, but it is necessary to       return it.
 const HeadingComponent = function() => {
     return (
         <div id="container">
@@ -136,6 +136,3 @@ Due to JSX.
 
 ## Why Code is Faster?
 Due to the Bundle.
-
-
-

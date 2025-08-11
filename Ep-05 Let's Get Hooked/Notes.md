@@ -48,7 +48,7 @@ It makes no difference to name file as .jsx or .js
 - Import the data in the required file.
 
 ## There are 2 types of import and export
-1. Named Export 
+1. Named Export :
 export const react_object1;
 export const react_object2;
 
@@ -56,7 +56,7 @@ import {react_object2} from file_name;
 
 - Use it using {react_object2}
 
-2. Default Export
+2. Default Export :
 const react_object1;
 const react_object2;
 
@@ -105,6 +105,7 @@ import CDN_URL, { LOGO_URL } from './config';
 
 ## React Hooks
 - Normal JS Utility Functions written by Meta Developers
+-A utility function is a small, reusable helper that does one generic task well—stuff    like formatting, validating, converting, or simple calculations. It isn’t tied to your app’s UI or business rules; you can call it from anywhere.
 - Installed by node_modules.
 
 ## Two Most Important Hooks 

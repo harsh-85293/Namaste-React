@@ -28,7 +28,6 @@ const AppLayout = () => {
 2. In the inline JSX tag as a javascript object.
 <div className="res-card" style={{backgroundColor: "red"}}>
 
-
 3. In the program by making a React Element.
 const styleCard = {
    backgroundColor: "red"
